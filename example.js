@@ -1,9 +1,6 @@
-# delayed-open-queue
+'use strict'
 
-Delayed open for Node.js, based on a queue
-
-```js
-var queue = require('delayed-open-queue')()
+var queue = require('./')()
 
 queue.push(function (cb) {
   console.log('first')
@@ -34,8 +31,3 @@ queue.on('complete', function () {
   console.log('queue started', queue.started)
   console.log('queue completed', queue.completed)
 })
-```
-
-## License
-
-MIT

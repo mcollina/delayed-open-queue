@@ -1,0 +1,34 @@
+{
+  "name": "delayed-open-queue",
+  "version": "0.1.0",
+  "description": "Delayed open for Node.js, based on a queue",
+  "main": "queue.js",
+  "scripts": {
+    "test": "standard && tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/delayed-open-queue.git"
+  },
+  "keywords": [
+    "delayed",
+    "open",
+    "queue",
+    "lazy",
+    "late"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/delayed-open-queue/issues"
+  },
+  "homepage": "https://github.com/mcollina/delayed-open-queue#readme",
+  "devDependencies": {
+    "pre-commit": "^1.1.2",
+    "standard": "^6.0.8",
+    "tap": "^5.7.1"
+  },
+  "dependencies": {
+    "fastq": "^1.4.1"
+  }
+}
